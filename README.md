@@ -44,12 +44,6 @@ and lastly this updates
 `sudo fwupdmgr update`
 
 
-## :dizzy: Improve your connection (maybe):
-now, I really recommend going to the system settings and in the connections section, disable ipv6, the reason is that your connection might be very slow with that enabled, you can re-renable it back at any point if you feel uncomfortable with it disabled so don't worry.
-
-I also recommend to go to your firewall settings and set the zone to home instead of workstation, might improve your connection speed too.
-
-
 ## :tophat: Now we add the flathub repository
 
 fedora doesn't include all of the repositories by default, this command enables the flathub flatpaks:
@@ -356,8 +350,14 @@ feel free to install more flatpaks you might need now, download themes, extra li
 
 at the very least, the minimum install that will make everything else work is there.
 
-
 I hope the guide wasn't too difficult to follow!
+
+
+## :dizzy: connection issues (maybe):
+if your connection is slow, try to disable ipv6, you can re-renable it back at any point if you feel uncomfortable with it disabled so don't worry.
+
+I also recommend to go to your firewall settings and set the zone to home instead of workstation, might improve your connection speed too.
+
 
 special thanks to everybody who made other guides and videos for me to follow and the fedora community, you all made my system work properly and this is just a compilation of what worked for me.
 
