@@ -158,7 +158,7 @@ first lets check if you have **secureboot** enabled:
 
 if you do, reboot, access your bios and disable it, its the **easier way to do this**
 
-the hard way, you'll probably have to find a guide about how to set up your secure boot so it works with nivida drivers, its honestly a lot of annoying steps so do yourself a favor and disable it if you don't really care about it
+the hard way, you'll probably have to [follow this guide](https://rpmfusion.org/Howto/Secure%20Boot) to set up your secure boot so it works with nivida drivers, just disable it if you don't really care about it
 
 now next step, we install the kernel headers and dev tools:
 
@@ -194,7 +194,7 @@ then same deal, wait for around 10 minutes, check if the kernel is built and reb
 
 ### everything went well, but now I see an error while booting fedora!
 
-its probably secureboot disabling the nvidia driver, I told you earlier to disable it!
+its probably secureboot disabling the nvidia driver, I told you earlier to disable it! (or to follow the guide linked earlier)
 
 
 **if everything is fine**, lets keep going
